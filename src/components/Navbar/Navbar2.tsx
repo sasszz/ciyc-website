@@ -51,7 +51,7 @@ export default function Example() {
         className="p-2 rounded-md	text-[#000000] hover:bg-bbblue hover:text-white"
       >
         <Link to="/comingsoon" className="flex items-center">
-          Burgee Kickstarter
+          Burgees
         </Link>
       </Typography>
       <Typography
