@@ -13,8 +13,5 @@ A website for sharing information about Clipperton Island Yacht Club. Visitors c
 
 **Server:** Node
 
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./CIYCAppScreenshot.png)
 
