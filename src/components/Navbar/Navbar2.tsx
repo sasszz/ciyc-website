@@ -50,7 +50,7 @@ export default function Example() {
         color="black"
         className="p-2 rounded-md	text-[#000000] hover:bg-bbblue hover:text-white"
       >
-        <Link to="/comingsoon" className="flex items-center">
+        <Link to="/burgees" className="flex items-center">
           Burgees
         </Link>
       </Typography>

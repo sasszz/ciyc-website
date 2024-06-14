@@ -12,6 +12,7 @@ import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar2";
 import ComingSoon from "./components/Body/ComingSoon";
 import NotFound from "./components/Body/NotFound";
+import Burgee from "./components/Burgee/Burgee";
 
 function App() {
   return (
@@ -28,6 +29,11 @@ function App() {
         <Route
           path="/comingsoon"
           element={<ComingSoon />}
+          errorElement={<NotFound />}
+        />
+        <Route
+          path="/burgees"
+          element={<Burgee />}
           errorElement={<NotFound />}
         />
       </Routes>
