@@ -1,5 +1,4 @@
-import Flag from "../../assets/burgeeSize.png";
-import Flag2 from "../../assets/fabricBurgee.jpg";
+
 
 const Membership = () => {
   return (
