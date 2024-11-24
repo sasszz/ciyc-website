@@ -13,6 +13,7 @@ import Navbar from "./components/Navbar/Navbar2";
 import ComingSoon from "./components/Body/ComingSoon";
 import NotFound from "./components/Body/NotFound";
 import Burgee from "./components/Burgee/Burgee";
+import Membership from "./components/Membership/Membership";
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
         <Route
           path="/about"
           element={<Accordian />}
+          errorElement={<NotFound />}
+        />
+        <Route
+          path="/membership"
+          element={<Membership />}
           errorElement={<NotFound />}
         />
         <Route

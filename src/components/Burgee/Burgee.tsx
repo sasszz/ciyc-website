@@ -19,9 +19,14 @@ const Burgee = () => {
       </div>
       <div>
         <p>Embroidered both sides and made with heavy weight material</p>
-        <p>
+        <p className="pt-4">
           Email Jürgen Arnke at{" "}
-          <a href="mailto:siamlog@googlemail.com">siamlog@googlemail.com</a>
+          <a
+            className="p-2 rounded-md	text-[#000000] bg-bbblue hover:text-white"
+            href="mailto:siamlog@googlemail.com"
+          >
+            siamlog@googlemail.com
+          </a>
         </p>
       </div>
       <img src={Flag2} alt="logo-ct" className="w-[500px]" />

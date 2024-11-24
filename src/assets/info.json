@@ -28,5 +28,10 @@
     "id": 6,
     "header": "Duties",
     "description": "If you are going to Clipperton island or just passing through, you pledge that you will fill up the report linked below."
+  },
+  {
+    "id": 7,
+    "header": "Learn More",
+    "description": "Browse the following resources to learn more about this amazing island."
   }
 ]

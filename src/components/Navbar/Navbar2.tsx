@@ -35,6 +35,16 @@ export default function Example() {
         color="black"
         className="p-2 rounded-md	text-[#000000] hover:bg-bbblue hover:text-white"
       >
+        <Link to="/membership" className="flex items-center">
+          Membership
+        </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="black"
+        className="p-2 rounded-md	text-[#000000] hover:bg-bbblue hover:text-white"
+      >
         <Link
           to="https://CIYCShop.etsy.com"
           target="_blank"
